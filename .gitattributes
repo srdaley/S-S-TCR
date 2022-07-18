@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+../fig3.clonotype.table.txt filter=lfs diff=lfs merge=lfs -text
+fig3.clonotype.table.txt filter=lfs diff=lfs merge=lfs -text
+.txt filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
